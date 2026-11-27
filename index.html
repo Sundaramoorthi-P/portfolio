@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="P. Sundaramoorthi — aspiring full-stack developer portfolio." />
+  <title>Sundaramoorthi | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <a href="#home" class="logo"><span class="logo-icon">&lt;/&gt;</span> Sundaramoorthi</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="navLinks">
+      <a class="nav-link active" href="#home">Home</a><a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#skills">Skills</a><a class="nav-link" href="#projects">Projects</a><a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-small" href="#contact">Let's Talk <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</p>
+        <h1>Hello, I'm<br><span class="gradient-text">P. Sundaramoorthi</span></h1>
+        <h2>I'm an <span id="typingText" class="gradient-text">Aspiring Developer</span><span class="cursor">|</span></h2>
+        <p class="hero-description">Turning ideas into useful digital experiences with code, creativity and a passion for learning.</p>
+        <div class="hero-actions"><a href="#projects" class="btn">Explore My Work <span>↗</span></a><a href="#contact" class="btn btn-outline">Contact Me <span>✉</span></a></div>
+        <div class="socials"><a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+      </div>
+      <div class="hero-art"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="portrait-placeholder"><span>SM</span><p>YOUR PHOTO</p></div><div class="floating-tag tag-top">&lt; Code /&gt;</div><div class="floating-tag tag-bottom">Dream · Code · Grow</div></div>
+      <div class="hero-glow"></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading"><p class="eyebrow">GET TO KNOW ME</p><h2>About <span class="gradient-text">Me</span></h2></div>
+      <div class="about-grid"><div class="about-card"><div class="about-symbol">✦</div><h3>Curious by nature.<br>Developer by ambition.</h3><p>I'm a BE Computer Science graduate interested in building websites and practical software solutions. I'm learning, experimenting and improving my skills one project at a time.</p><p>My goal is to grow into a skilled full-stack developer and contribute to meaningful technology projects.</p></div>
+        <div class="stats"><div class="stat-card"><strong>B.E CSE</strong><span>Graduate</span></div><div class="stat-card"><strong>3+</strong><span>Projects / ideas</span></div><div class="stat-card"><strong>∞</strong><span>Learning mindset</span></div></div></div>
+    </section>
+
+    <section class="section" id="skills"><div class="section-heading"><p class="eyebrow">MY TOOLKIT</p><h2>Technical <span class="gradient-text">Skills</span></h2><p>Technologies I'm learning and using to build projects.</p></div>
+      <div class="skills-grid"><div class="skill"><div class="skill-icon">Py</div><h3>Python</h3><p>Programming</p></div><div class="skill"><div class="skill-icon">JS</div><h3>JavaScript</h3><p>Interactivity</p></div><div class="skill"><div class="skill-icon">5</div><h3>HTML5</h3><p>Structure</p></div><div class="skill"><div class="skill-icon">3</div><h3>CSS3</h3><p>Design</p></div><div class="skill"><div class="skill-icon">DB</div><h3>SQL</h3><p>Database</p></div><div class="skill"><div class="skill-icon">F</div><h3>Flask</h3><p>Backend (learning)</p></div><div class="skill"><div class="skill-icon">Git</div><h3>Git</h3><p>Version control</p></div><div class="skill"><div class="skill-icon">GH</div><h3>GitHub</h3><p>Repositories</p></div></div>
+    </section>
+
+    <section class="section" id="projects"><div class="section-heading"><p class="eyebrow">WHAT I'VE BEEN BUILDING</p><h2>Featured <span class="gradient-text">Projects</span></h2></div>
+      <div class="projects-grid"><article class="project-card"><div class="project-art art-blue"><span>01</span><div class="art-window">HireTrack<br><small>Applications · Status · Follow-up</small></div></div><div class="project-body"><div class="project-title"><h3>HireTrack</h3><span class="project-type">WEB APP</span></div><p>A job application tracking concept to help job seekers organise applications, status and follow-ups.</p><div class="tags"><span>Python</span><span>HTML</span><span>CSS</span><span>SQL</span></div><a href="#contact" class="project-link">Discuss project ↗</a></div></article>
+      <article class="project-card"><div class="project-art art-orange"><span>02</span><div class="art-window">FoodBridge<br><small>Discover · Connect · Share</small></div></div><div class="project-body"><div class="project-title"><h3>FoodBridge</h3><span class="project-type">WEB APP IDEA</span></div><p>A platform concept connecting surplus food with people and organisations who can use it.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="#contact" class="project-link">Discuss project ↗</a></div></article>
+      <article class="project-card"><div class="project-art art-purple"><span>03</span><div class="art-window">DDoS Detection<br><small>VANET · Deep Learning</small></div></div><div class="project-body"><div class="project-title"><h3>DDoS Detection</h3><span class="project-type">ML PROJECT</span></div><p>A deep hybrid ViT-LSTM research project exploring DDoS detection in vehicular networks.</p><div class="tags"><span>Python</span><span>ML</span><span>MATLAB</span></div><a href="#contact" class="project-link">Discuss project ↗</a></div></article></div>
+    </section>
+
+    <section class="section contact" id="contact"><div class="contact-grid"><div><p class="eyebrow">LET'S CONNECT</p><h2>Have a project or<br>opportunity in <span class="gradient-text">mind?</span></h2><p class="contact-text">I'm always open to learning, collaborating and exploring entry-level developer opportunities.</p><div class="contact-details"><p>✉ <a id="emailLink" href="mailto:sundaramoorthi@email.com">sundaramoorthi@email.com</a></p><p>⌖ Chennai, India</p></div></div>
+        <form id="contactForm" class="contact-form"><label for="name">Your name</label><input id="name" name="name" required placeholder="Enter your name"><label for="email">Your email</label><input id="email" name="email" type="email" required placeholder="you@example.com"><label for="message">Your message</label><textarea id="message" name="message" rows="4" required placeholder="Let's talk..."></textarea><button class="btn" type="submit">Send Message <span>↗</span></button><p class="form-note" id="formNote">This form opens your email app to send the message.</p></form></div></section>
+  </main>
+  <footer><a href="#home" class="logo"><span class="logo-icon">&lt;/&gt;</span> SM</a><p>© <span id="year"></span> P. Sundaramoorthi. Built with HTML, CSS & JavaScript.</p><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
